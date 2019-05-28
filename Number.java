@@ -13,8 +13,6 @@ count[i]++;
 c[j] = '0';
 }
 }
-}
-for(int i=0;i<count.length;i++) {
 if(c[i]!=' ' && c[i]!='0') 
 System.out.println(c[i]+" = "+""+count[i]+" ");
 }
